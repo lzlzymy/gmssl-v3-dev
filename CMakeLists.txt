@@ -269,5 +269,4 @@ INSTALL(TARGETS sm3 sm3hmac sm2keygen sm2sign sm2verify sm2encrypt sm2decrypt RU
 INSTALL(TARGETS certparse certgen certverify reqgen reqparse reqsign RUNTIME DESTINATION bin)
 INSTALL(TARGETS tlcp_client tlcp_server tls12_client tls12_server tls13_client tls13_server RUNTIME DESTINATION bin)
 INSTALL(TARGETS gmssl LIBRARY DESTINATION lib)
-INSTALL(DIRECTORY ${CMAKE_SOURCE_DIR}/include/gmssl DESTINATION include)
-
+INSTALL(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/gmssl DESTINATION include)

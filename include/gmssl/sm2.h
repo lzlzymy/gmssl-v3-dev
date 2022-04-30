@@ -252,3 +252,4 @@ int sm2_selftest(void);
 #ifdef __cplusplus
 }
 #endif
+#endif
